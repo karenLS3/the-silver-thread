@@ -71,6 +71,8 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+package-lock.json
+
 # PyBuilder
 .pybuilder/
 target/
@@ -202,6 +204,9 @@ local.properties
 node_modules/
 npm-debug.log
 yarn-error.log
+
+# Ignore all .log files
+*.log
 
 # fastlane
 #
